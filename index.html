@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dami Daramola | Software Engineer</title>
+    <meta name="description" content="Portfolio of Dami Daramola, software engineer: projects, skills, experience and contact." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..700&family=Inter:wght@400;500&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="nav">
+      <nav class="nav-links" aria-label="Sections">
+        <a href="#experience" id="nav-experience"><span>01</span>Experience</a>
+        <a href="#projects"><span>02</span>Projects</a>
+        <a href="#about"><span>03</span>About</a>
+        <a href="#skills"><span>04</span>Skills</a>
+        <a href="#contact"><span>05</span>Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <h1 id="hero-name"></h1>
+        <p class="hero-role" id="hero-role"></p>
+        <p class="lede" id="hero-tagline"></p>      </section>
+
+      <section id="experience" class="section">
+        <header class="section-label mono"><span>01</span>Experience</header>
+        <ol class="section-body timeline" id="timeline"></ol>
+      </section>
+
+      <section id="projects" class="section">
+        <header class="section-label mono"><span>02</span>Projects</header>
+        <div class="section-body">
+          <ol class="project-list" id="project-list"></ol>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <header class="section-label mono"><span>03</span>About</header>
+        <div class="section-body about" id="about-text"></div>
+      </section>
+
+      <section id="skills" class="section">
+        <header class="section-label mono"><span>04</span>Skills</header>
+        <div class="section-body skills" id="skills-list"></div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <header class="section-label mono"><span>05</span>Contact</header>
+        <div class="section-body">
+          <p class="contact-heading">Contact me</p>
+          <a class="contact-email" id="contact-email"></a>
+          <ul class="contact-links mono" id="contact-links"></ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer mono" id="footer"></footer>
+
+    <script src="projects.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
